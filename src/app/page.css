@@ -1,0 +1,44 @@
+.main-container {
+  background-color: #8e44ad;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.title {
+  color: #fff;
+}
+
+.get-start-btn {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 0.5;
+  color: #8e44ad;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+.get-start-btn:hover {
+  background-color: #fff;
+  color: #8e44ad;
+}
+
+.footer-content {
+  position: absolute;
+  bottom: 20px;
+}
+
+.footer-content span {
+  color: #fff;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: capitalize;
+}
